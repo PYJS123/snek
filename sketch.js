@@ -56,8 +56,11 @@ function draw() {
 }
 
 function mousePressed() {
-    brit=findSquare(mouseX, mouseY);
-    state=(state+1)%2;
+    let wouldBBrit=findSquare(mouseX, mouseY);
+    if (!(state==0 && whichPiece([wouldBBrit[0]/third, wouldBBrit[1]/third])==null)) {
+        brit=wouldBBrit;
+        state=(state+1)%2;
+    }
 }
 
 // Takes in x pos, y pos, returns box- e.g. [0, 0]*third
