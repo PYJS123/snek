@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Space Mono", Courier;
+    background-color: rgb(51, 51, 51);
+    /* background-image: linear-gradient(red, yellow); */
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #44e144;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.hides {
+    color: rgb(150, 150, 150);
+}
+
+canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
