@@ -1,4 +1,4 @@
-## Snek (well it's actuall hexapawn so...)
+## Snek (well it's actually hexapawn so...)
 # Hexapawn!
 Chess but 3x3 and only pawns. If you haven't ever heard of it, now you have.
 
